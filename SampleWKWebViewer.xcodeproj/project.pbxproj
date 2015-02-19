@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7435391A9583FA00280887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7435381A9583FA00280887 /* AppDelegate.swift */; };
+		EF74353B1A9583FA00280887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74353A1A9583FA00280887 /* ViewController.swift */; };
+		EF74353E1A9583FA00280887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF74353C1A9583FA00280887 /* Main.storyboard */; };
+		EF7435401A9583FA00280887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF74353F1A9583FA00280887 /* Images.xcassets */; };
+		EF7435431A9583FA00280887 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7435411A9583FA00280887 /* LaunchScreen.xib */; };
+		EF74354F1A9583FA00280887 /* SampleWKWebViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74354E1A9583FA00280887 /* SampleWKWebViewerTests.swift */; };
+		EF7435591A95844400280887 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7435581A95844400280887 /* WebPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7435491A9583FA00280887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF74352B1A9583FA00280887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7435321A9583FA00280887;
+			remoteInfo = SampleWKWebViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7435331A9583FA00280887 /* SampleWKWebViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleWKWebViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7435371A9583FA00280887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7435381A9583FA00280887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF74353A1A9583FA00280887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF74353D1A9583FA00280887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF74353F1A9583FA00280887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF7435421A9583FA00280887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF7435481A9583FA00280887 /* SampleWKWebViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleWKWebViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF74354D1A9583FA00280887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF74354E1A9583FA00280887 /* SampleWKWebViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWKWebViewerTests.swift; sourceTree = "<group>"; };
+		EF7435581A95844400280887 /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7435301A9583FA00280887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7435451A9583FA00280887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF74352A1A9583FA00280887 = {
+			isa = PBXGroup;
+			children = (
+				EF7435351A9583FA00280887 /* SampleWKWebViewer */,
+				EF74354B1A9583FA00280887 /* SampleWKWebViewerTests */,
+				EF7435341A9583FA00280887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7435341A9583FA00280887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7435331A9583FA00280887 /* SampleWKWebViewer.app */,
+				EF7435481A9583FA00280887 /* SampleWKWebViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7435351A9583FA00280887 /* SampleWKWebViewer */ = {
+			isa = PBXGroup;
+			children = (
+				EF7435381A9583FA00280887 /* AppDelegate.swift */,
+				EF74353A1A9583FA00280887 /* ViewController.swift */,
+				EF74353C1A9583FA00280887 /* Main.storyboard */,
+				EF74353F1A9583FA00280887 /* Images.xcassets */,
+				EF7435411A9583FA00280887 /* LaunchScreen.xib */,
+				EF7435361A9583FA00280887 /* Supporting Files */,
+				EF7435581A95844400280887 /* WebPageViewController.swift */,
+			);
+			path = SampleWKWebViewer;
+			sourceTree = "<group>";
+		};
+		EF7435361A9583FA00280887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7435371A9583FA00280887 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF74354B1A9583FA00280887 /* SampleWKWebViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF74354E1A9583FA00280887 /* SampleWKWebViewerTests.swift */,
+				EF74354C1A9583FA00280887 /* Supporting Files */,
+			);
+			path = SampleWKWebViewerTests;
+			sourceTree = "<group>";
+		};
+		EF74354C1A9583FA00280887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF74354D1A9583FA00280887 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7435321A9583FA00280887 /* SampleWKWebViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7435521A9583FA00280887 /* Build configuration list for PBXNativeTarget "SampleWKWebViewer" */;
+			buildPhases = (
+				EF74352F1A9583FA00280887 /* Sources */,
+				EF7435301A9583FA00280887 /* Frameworks */,
+				EF7435311A9583FA00280887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleWKWebViewer;
+			productName = SampleWKWebViewer;
+			productReference = EF7435331A9583FA00280887 /* SampleWKWebViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7435471A9583FA00280887 /* SampleWKWebViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7435551A9583FA00280887 /* Build configuration list for PBXNativeTarget "SampleWKWebViewerTests" */;
+			buildPhases = (
+				EF7435441A9583FA00280887 /* Sources */,
+				EF7435451A9583FA00280887 /* Frameworks */,
+				EF7435461A9583FA00280887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF74354A1A9583FA00280887 /* PBXTargetDependency */,
+			);
+			name = SampleWKWebViewerTests;
+			productName = SampleWKWebViewerTests;
+			productReference = EF7435481A9583FA00280887 /* SampleWKWebViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF74352B1A9583FA00280887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sample;
+				TargetAttributes = {
+					EF7435321A9583FA00280887 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF7435471A9583FA00280887 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF7435321A9583FA00280887;
+					};
+				};
+			};
+			buildConfigurationList = EF74352E1A9583FA00280887 /* Build configuration list for PBXProject "SampleWKWebViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF74352A1A9583FA00280887;
+			productRefGroup = EF7435341A9583FA00280887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7435321A9583FA00280887 /* SampleWKWebViewer */,
+				EF7435471A9583FA00280887 /* SampleWKWebViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7435311A9583FA00280887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF74353E1A9583FA00280887 /* Main.storyboard in Resources */,
+				EF7435431A9583FA00280887 /* LaunchScreen.xib in Resources */,
+				EF7435401A9583FA00280887 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7435461A9583FA00280887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF74352F1A9583FA00280887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7435591A95844400280887 /* WebPageViewController.swift in Sources */,
+				EF74353B1A9583FA00280887 /* ViewController.swift in Sources */,
+				EF7435391A9583FA00280887 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7435441A9583FA00280887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF74354F1A9583FA00280887 /* SampleWKWebViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF74354A1A9583FA00280887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7435321A9583FA00280887 /* SampleWKWebViewer */;
+			targetProxy = EF7435491A9583FA00280887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF74353C1A9583FA00280887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF74353D1A9583FA00280887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7435411A9583FA00280887 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7435421A9583FA00280887 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7435501A9583FA00280887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7435511A9583FA00280887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7435531A9583FA00280887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleWKWebViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7435541A9583FA00280887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleWKWebViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7435561A9583FA00280887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleWKWebViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleWKWebViewer.app/SampleWKWebViewer";
+			};
+			name = Debug;
+		};
+		EF7435571A9583FA00280887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleWKWebViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleWKWebViewer.app/SampleWKWebViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF74352E1A9583FA00280887 /* Build configuration list for PBXProject "SampleWKWebViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7435501A9583FA00280887 /* Debug */,
+				EF7435511A9583FA00280887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7435521A9583FA00280887 /* Build configuration list for PBXNativeTarget "SampleWKWebViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7435531A9583FA00280887 /* Debug */,
+				EF7435541A9583FA00280887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7435551A9583FA00280887 /* Build configuration list for PBXNativeTarget "SampleWKWebViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7435561A9583FA00280887 /* Debug */,
+				EF7435571A9583FA00280887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF74352B1A9583FA00280887 /* Project object */;
+}
